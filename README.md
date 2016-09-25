@@ -6,7 +6,7 @@ _assemble car|suv 'specifications'_  *<br>
 _disassemble 'vin'_  *<br>
 _display vin|all_  *<br>
 _find engine 'emission standart'_  *  - this command works only for emission standart<br>
-*update 'vin' 'emission standart'_  * - only emission standart can be updated<br>
+_update 'vin' 'emission standart'_  * - only emission standart can be updated<br>
 _read 'path'_                        - reads commands from text files in the directory 'path'<br>
 _stop_                              - stops the "factory" in orderly manner. Only when it is used all vehicles "made" during runtime will be saved to the permanent storage. <br>
 
