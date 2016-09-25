@@ -1,0 +1,31 @@
+assemble car model=a5-combi engine=E
+assemble suv model=q5-hatchback engine=p
+assemble suv model=q5 engine=d
+assemble car model=a8-hatchback engine=p
+assemble car model=a8 engine=P-5l-euro5
+assemble suv model=q7-hatchback engine=P-8l-t-euro5
+assemble car model=a8-hatchback engine=D-339hp
+assemble car model=a8-hatchback engine=P-339hp-euro6
+assemble car model=a8-sedan engine=p-1l-euro6
+assemble suv model=q7-hatchback engine=P-441hp-T
+assemble suv model=q7-hatchback engine=P-441hp-T-euro6
+assemble suv model=q7-hatchback engine=P-441hp-T-euro6 transmission=auto-5
+assemble suv model=q7-hatchback engine=P-441hp-T-euro6 transmission=auto-5
+assemble suv model=q7-hatchback engine=P-441hp-T-euro6 transmission=auto-5
+assemble suv model=q7-hatchback engine=P-441hp-T-euro6 transmission=auto-5
+assemble suv model=q7-hatchback engine=P-233hp-T-euro6 transmission=auto-5
+assemble suv model=q7-hatchback engine=P-233hp-T-euro6 transmission=auto-5
+assemble suv model=q7-hatchback engine=P-233hp-T-euro6 transmission=auto-5
+assemble suv model=q5 engine=p
+assemble suv model=q7 engine=d
+assemble suv model=q5 engine=d
+assemble suv model=q5 engine=d
+assemble suv model=q5 engine=d
+assemble suv model=q2 engine=d
+assemble suv model=q5 engine=p
+assemble suv model=q5 engine=e
+assemble suv model=q5 engine=d
+assemble suv model=q5 engine=d
+assemble suv model=q5 engine=d
+assemble suv model=q5 engine=d
+assemble suv model=q5 engine=d
