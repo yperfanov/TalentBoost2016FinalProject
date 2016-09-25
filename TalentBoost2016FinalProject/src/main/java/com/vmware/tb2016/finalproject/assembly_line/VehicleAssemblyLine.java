@@ -14,7 +14,8 @@ import com.vmware.tb2016.finalproject.vehicle_parts.transmission.Transmission;
 /**
  * <code>AssemblyLine</code> represents vehicle assembly line which assembles
  * vehicles.<br>
- * Implements {@link com.vmware.tb2016.finalproject.interfaces.IAssemblyLine IAssemblyLine}.
+ * Implements {@link com.vmware.tb2016.finalproject.interfaces.IAssemblyLine
+ * IAssemblyLine}.
  * 
  * @author Yuliyan Perfanov yperfanov@yahoo.com
  *
@@ -37,9 +38,11 @@ public class VehicleAssemblyLine implements IAssemblyLine {
 	 *            - {@link java.util.concurrent.BlockingQueue BlockingQueue}
 	 *            from which the assembly line will be taking valid assemble
 	 *            commands.
-	 * @param output - {@link java.io.PrintStream PrintStream} where the result of
+	 * @param output
+	 *            - {@link java.io.PrintStream PrintStream} where the result of
 	 *            the factory operations will be sent.
-	 * @param factoryCode - {@link java.lang.Object.String String} 
+	 * @param factoryCode
+	 *            - {@link java.lang.Object.String String}
 	 */
 	public VehicleAssemblyLine(Map<String, Vehicle> vehicleStorage, BlockingQueue<String> assembleCommandsQueue,
 			PrintStream output, String factoryCode) {
@@ -50,6 +53,11 @@ public class VehicleAssemblyLine implements IAssemblyLine {
 	}
 
 	/**
+	 * Assemble command specifications are accepted in the following format:<br>
+	 * modelName-modelType-powerInKw-emissionStandart-engineType-
+	 * engineDisplaycementInCc-turbo-transmissionType-gearsNumber<br>
+	 * Example: 'car model=a6 engine=d-233hp-t' -> 'A6-SEDAN-174-EURO3-D-2000-T-MANUAL-4'.<br>
+	 * 'car model=a6 engine=e' -> 'A6-SEDAN-535-EURO6-D-*-*-'
 	 * 
 	 * @throws InterruptedException
 	 */

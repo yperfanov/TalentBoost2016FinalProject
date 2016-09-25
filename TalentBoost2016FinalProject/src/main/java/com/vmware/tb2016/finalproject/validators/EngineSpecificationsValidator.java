@@ -51,8 +51,8 @@ public class EngineSpecificationsValidator {
 		// type.
 		if (specLenth == 2) {
 			if (this.engineType.equals("E")) {
-				this.enginePowerInKw = VehicleSpecificationsConstants.DEFAULT_MOTOR_ENGINE_POWER_KW;
-				this.emissionStandart = VehicleSpecificationsConstants.DEFAULT_MOTOR_ENGINE_EMISSION_STANDART;
+				this.enginePowerInKw = VehicleSpecificationsConstants.DEFAULT_ELECTRIC_MOTOR_POWER_KW;
+				this.emissionStandart = VehicleSpecificationsConstants.DEFAULT_ELECTRIC_MOTOR_EMISSION_STANDART;
 				return;
 			} else {
 				setDefaultValues();

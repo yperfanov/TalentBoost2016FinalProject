@@ -21,8 +21,8 @@ public class VehicleSpecificationsConstants {
 	public static final int DEFAULT_PETROL_ENGINE_POWER_KW = 74;
 	public static final int DEFAULT_DIESEL_ENGINE_DISPLACEMENT = 2000;
 	public static final int DEFAULT_DIESEL_ENGINE_POWER_KW = 134;
-	public static final int DEFAULT_MOTOR_ENGINE_POWER_KW = 535;
-	public static final String DEFAULT_MOTOR_ENGINE_EMISSION_STANDART = "EURO6";
+	public static final int DEFAULT_ELECTRIC_MOTOR_POWER_KW = 535;
+	public static final String DEFAULT_ELECTRIC_MOTOR_EMISSION_STANDART = "EURO6";
 	public static final String DEFAULT_MODEL_TYPE = "SEDAN";
 	public static final String DEFAULT_TRANSMISSION_TYPE = "MANUAL";
 	public static final int DEFAULT_GEARS_NUMBER = 4;
