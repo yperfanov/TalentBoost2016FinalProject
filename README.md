@@ -2,13 +2,13 @@
 Talent Boost 2016 Final Task - Henry Ford Assembly Line*<br>
 
 Working commands:<br>
-*assemble car|suv 'specifications'* *<br>
-*disassemble 'vin'* *<br>
-*display vin|all* *<br>
-*find engine 'emission standart'* *  - this command works only for emission standart<br>
-*update 'vin' 'emission standart'* * - only emission standart can be updated<br>
-*read 'path'*                        - reads commands from text files in the directory 'path'<br>
-*stop*                               - stops the "factory" in orderly manner. Only when it is used all vehicles "made" during runtime will be saved to the permanent storage. <br>
+_assemble car|suv 'specifications'_  *<br>
+_disassemble 'vin'_  *<br>
+_display vin|all_  *<br>
+_find engine 'emission standart'_  *  - this command works only for emission standart<br>
+*update 'vin' 'emission standart'_  * - only emission standart can be updated<br>
+_read 'path'_                        - reads commands from text files in the directory 'path'<br>
+_stop_                              - stops the "factory" in orderly manner. Only when it is used all vehicles "made" during runtime will be saved to the permanent storage. <br>
 
 Turbocharger option info:<br>
 If a turbocharger is mounted and the input engine power is in:<br>
