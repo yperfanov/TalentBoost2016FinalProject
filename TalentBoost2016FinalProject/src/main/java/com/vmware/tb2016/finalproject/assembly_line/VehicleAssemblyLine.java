@@ -13,7 +13,7 @@ import com.vmware.tb2016.finalproject.vehicle_parts.transmission.Transmission;
 
 /**
  * <code>AssemblyLine</code> represents vehicle assembly line which assembles
- * cars.<br>
+ * vehicles.<br>
  * Implements {@link com.vmware.tb2016.finalproject.interfaces.IAssemblyLine IAssemblyLine}.
  * 
  * @author Yuliyan Perfanov yperfanov@yahoo.com
