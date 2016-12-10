@@ -1,5 +1,5 @@
 # TalentBoost2016FinalProject
-Talent Boost 2016 Final Task - Henry Ford Assembly Line*<br>
+VMware Talent Boost 2016 Final Task - Henry Ford Assembly Line*<br>
 
 Working commands:<br>
 _assemble car|suv 'specifications'_  *<br>
